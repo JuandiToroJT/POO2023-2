@@ -10,7 +10,7 @@ package poo2023back;
  * @author anony
  */
 public class GradeBook {
-    public void displayMessage(){
-        System.out.println("Welcome bitch");
+    public void displayMessage(String nombreCurso){
+        System.out.println("Welcome bitch, el curso es " + nombreCurso);
     }
 }

@@ -17,7 +17,7 @@ public class POO2023BACK {
     public static void main(String[] args) {
         // TODO code application logic here
         GradeBook gradeBook = new GradeBook();
-        gradeBook.displayMessage();
+        gradeBook.displayMessage("POO");
     }
     
 }
