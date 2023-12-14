@@ -10,7 +10,30 @@ package poo2023back;
  * @author anony
  */
 public class GradeBook {
-    public void displayMessage(String nombreCurso){
-        System.out.println("Welcome bitch, el curso es " + nombreCurso);
+    private String CourseName;
+    
+    public void displayMessage(){
+        System.out.println("Welcome bitch, el curso es " + getCourseName());
+    }
+
+    public GradeBook() {
+    }
+    
+    public GradeBook(String CourseName) {
+        this.CourseName = CourseName;
+    }
+
+    /**
+     * @return the CourseName
+     */
+    public String getCourseName() {
+        return CourseName;
+    }
+
+    /**
+     * @param CourseName the CourseName to set
+     */
+    public void setCourseName(String CourseName) {
+        this.CourseName = CourseName;
     }
 }
